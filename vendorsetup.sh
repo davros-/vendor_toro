@@ -1,3 +1,3 @@
-add_lunch_combo elite_toro-user
-add_lunch_combo elite_toro-userdebug
+add_lunch_combo Droid_Concepts_toro-user
+add_lunch_combo Droid_Concepts_toro-userdebug
 
