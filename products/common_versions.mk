@@ -7,6 +7,11 @@ PRODUCT_VERSION_MAJOR = 9
 PRODUCT_VERSION_MINOR = 0
 
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.modversion=Droid_Concepts-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-NIGHTLY-$(shell date +"%m-%d-%y")
+    ro.modversion=Droid_Concepts-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-NIGHTLY-$(shell date +"%m-%d-%y")
+    ro.developerid=Droid_Concepts \
+    ro.goo.developerid=davros \
+    ro.goo.rom=Droid_Concepts \
+    ro.goo.version=$(BUILD_VERSION) \
+    ro.goo.board=$(PRODUCT_DEVICE)
     
 
