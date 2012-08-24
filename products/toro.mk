@@ -34,3 +34,5 @@ PRODUCT_COPY_FILES +=  \
 
 # Inherit speech recognition blobs
 -include vendor/Droid_Concepts/products/common_speech_recognition.mk
+
+
