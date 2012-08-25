@@ -1,4 +1,4 @@
-$(call inherit-product, vendor/droid_concepts/config/themes_common.mk)
+$(call inherit-product, vendor/Droid_Concepts/products/themes_common.mk)
 
 # Generic product
 PRODUCT_NAME := Droid_Concepts
