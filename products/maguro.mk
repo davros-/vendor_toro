@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES +=  \
     vendor/Droid_Concepts/proprietary/maguro/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/Droid_Concepts/proprietary/maguro/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 
+# Inherit media effect blobs
+-include vendor/Droid_Concepts/products/common_media_effects.mk
 
 # Inherit Face lock security blobs
 -include vendor/Droid_Concepts/products/common_facelock.mk
