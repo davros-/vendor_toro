@@ -16,6 +16,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.setupwizard.enterprise_mode=1
 
+# Common packages 
+PRODUCT_PACKAGES += \
+    DCWallpapers
+
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
