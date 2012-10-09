@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/Droid_Concepts/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/Droid_Concepts/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
-    vendor/Droid_Concepts/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
+    vendor/Droid_Concepts/proprietary/common/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
     vendor/Droid_Concepts/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/Droid_Concepts/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/Droid_Concepts/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
