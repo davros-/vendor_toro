@@ -21,6 +21,11 @@ PRODUCT_PACKAGES += \
     DCWallpapers \
     Calendar
 
+# init.d support
+PRODUCT_COPY_FILES += \
+    vendor/Droid_Concepts/proprietary/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
+    vendor/Droid_Concepts/proprietary/common/bin/sysinit:system/bin/sysinit
+
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
@@ -98,4 +103,9 @@ PRODUCT_COPY_FILES += \
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+
+# BusyBox binary
+PRODUCT_COPY_FILES +=  \
+    vendor/Droid_Concepts/proprietary/common/xbin/busybox:system/xbin/busybox
+
 
