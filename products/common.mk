@@ -18,7 +18,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Common packages 
 PRODUCT_PACKAGES += \
-    DCWallpapers
+    DCWallpapers \
     Calendar
 
 # Common Google Applications and libs
