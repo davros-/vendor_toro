@@ -73,7 +73,6 @@ PRODUCT_COPY_FILES += \
 # Common Binary files
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/bin/flash_image:system/bin/flash_image \
-    vendor/Droid_Concepts/proprietary/common/bin/deguggered:system/bin/debuggered \
     vendor/Droid_Concepts/proprietary/common/xbin/bash:system/xbin/bash \
     vendor/Droid_Concepts/proprietary/common/xbin/zipalign:system/xbin/zipalign \
     vendor/Droid_Concepts/proprietary/common/xbin/su:system/xbin/su 
