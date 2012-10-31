@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
+    vendor/Droid_Concepts/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/Droid_Concepts/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
     vendor/Droid_Concepts/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/Droid_Concepts/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
