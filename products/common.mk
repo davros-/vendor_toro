@@ -1,4 +1,4 @@
-$(call inherit-product, vendor/Droid_Concepts/products/themes_common.mk)
+#$(call inherit-product, vendor/Droid_Concepts/products/themes_common.mk)
 
 # Generic product
 PRODUCT_NAME := Droid_Concepts
@@ -54,15 +54,16 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/Droid_Concepts/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/Droid_Concepts/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
-    vendor/Droid_Concepts/proprietary/common/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
+    vendor/Droid_Concepts/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
+    vendor/Droid_Concepts/proprietary/common/lib/libgtalk_jni.so:system/lib/libgtalk_jni.so \
+    vendor/Droid_Concepts/proprietary/common/lib/libgtalk_stabilize.so:system/lib/libgtalk_stabilize.so \
     vendor/Droid_Concepts/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/Droid_Concepts/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
+    vendor/Droid_Concepts/proprietary/common/lib/liblightcycle.so:system/lib/liblightcycle.so \
     vendor/Droid_Concepts/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
     vendor/Droid_Concepts/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/Droid_Concepts/proprietary/common/lib/libttscompat.so:system/lib/libttscompat.so \
     vendor/Droid_Concepts/proprietary/common/lib/libttspico.so:system/lib/libttspico.so \
-    vendor/Droid_Concepts/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
-    vendor/Droid_Concepts/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/Droid_Concepts/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/Droid_Concepts/proprietary/common/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so 
 
