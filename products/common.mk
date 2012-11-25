@@ -1,5 +1,3 @@
-#$(call inherit-product, vendor/Droid_Concepts/products/themes_common.mk)
-
 # Generic product
 PRODUCT_NAME := Droid_Concepts
 PRODUCT_BRAND := Droid_Concepts
@@ -15,6 +13,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.setupwizard.enterprise_mode=1
+
+# T-mobile heme engine
+include vendor/Droid_Concepts/products/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
