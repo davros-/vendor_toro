@@ -44,7 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/Droid_Concepts/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/Droid_Concepts/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
-    vendor/Droid_Concepts/proprietary/common/app/QuickSettingsControlPannel.apk:packages/QuickSettingsControlPanel/QuickSettingsControlPanel.apk \
+    vendor/Droid_Concepts/proprietary/common/app/QuickSettingsControlPanel.apk:system/app/QuickSettingsControlPanel.apk \
     vendor/Droid_Concepts/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/Droid_Concepts/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/Droid_Concepts/proprietary/common/app/Talk.apk:system/app/Talk.apk \
