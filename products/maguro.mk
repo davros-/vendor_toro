@@ -19,6 +19,7 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=yakju BUILD_ID=JRO03L BUILD_FINGERP
 # Copy maguro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/Droid_Concepts/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/Droid_Concepts/proprietary/tuna/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/Droid_Concepts/proprietary/maguro/vendor/etc/smc_normal_world_android_cfg.ini:system/vendor/etc/smc_normal_world_android_cfg.ini 
 
 # Inherit media effect blobs
