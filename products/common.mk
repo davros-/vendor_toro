@@ -72,6 +72,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/Superuser.apk:system/app/Superuser.apk
 
+# Common Keyboard w/ Gestures
+PRODUCT_COPY_FILES += \
+    vendor/Droid_Concepts/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
+    vendor/Droid_Concepts/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
+
 # Common Binary files
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/bin/flash_image:system/bin/flash_image \
