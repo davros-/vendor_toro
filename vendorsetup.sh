@@ -3,3 +3,4 @@ add_lunch_combo Droid_Concepts_toro-userdebug
 add_lunch_combo Droid_Concepts_maguro-user
 add_lunch_combo Droid_Concepts_maguro-userdebug
 add_lunch_combo Droid_Concepts_mako_user
+add_lunch_combo Droid_Concepts_mako_userdebug
