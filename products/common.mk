@@ -96,6 +96,9 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
     vendor/Droid_Concepts/proprietary/common/etc/sysctl.conf:system/etc/sysctl.conf 
 
+# BEATS Audio
+include vendor/Droid_Concepts/products/beats_audio.mk
+
 # Common scripts
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/xbin/cpuinfo:system/xbin/cpuinfo \
