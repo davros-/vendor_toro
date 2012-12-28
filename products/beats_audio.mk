@@ -2,7 +2,6 @@
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/beats/app/AudioEffectService.apk:system/app/AudioEffectService.apk \
     vendor/Droid_Concepts/proprietary/common/beats/app/DEMENTEDBeats.apk:system/app/DEMENTEDBeats.apk \
-    vendor/Droid_Concepts/proprietary/common/beats/media/bootanimation.zip:system/media/bootanimation.zip \
     vendor/Droid_Concepts/proprietary/common/beats/bin/basimage_gec.bin:system/bin/basimage_gec.bin \
     vendor/Droid_Concepts/proprietary/common/beats/bin/basimage_gec_x.bin:system/bin/basimage_gec_x.bin \
     vendor/Droid_Concepts/proprietary/common/beats/bin/basimage_ibeats.bin:system/bin/basimage_ibeats.bin \
