@@ -4,3 +4,5 @@ add_lunch_combo Droid_Concepts_maguro-user
 add_lunch_combo Droid_Concepts_maguro-userdebug
 add_lunch_combo Droid_Concepts_mako-user
 add_lunch_combo Droid_Concepts_mako-userdebug
+add_lunch_combo Droid_Concepts_grouper-user
+add_lunch_combo Droid_Concepts_grouper-userdebug
