@@ -74,7 +74,8 @@ PRODUCT_COPY_FILES += \
 
 # Common Applications
 PRODUCT_COPY_FILES += \
-    vendor/Droid_Concepts/proprietary/common/app/Superuser.apk:system/app/Superuser.apk
+    vendor/Droid_Concepts/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/Droid_Concepts/proprietary/common/app/TricksterMod.apk:system/app/TricksterMod.apk 
 
 # Common Keyboard w/ Gestures
 PRODUCT_COPY_FILES += \
