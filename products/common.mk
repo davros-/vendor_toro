@@ -79,9 +79,9 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/TricksterMod.apk:system/app/TricksterMod.apk 
 
 # Common Keyboard w/ Gestures
-PRODUCT_COPY_FILES += \
-    vendor/Droid_Concepts/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-    vendor/Droid_Concepts/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
+#PRODUCT_COPY_FILES += \
+#    vendor/Droid_Concepts/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
+#    vendor/Droid_Concepts/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
 
 # Common Binary files
 PRODUCT_COPY_FILES += \
