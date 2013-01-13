@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/lib/libgtalk_jni.so:system/lib/libgtalk_jni.so \
     vendor/Droid_Concepts/proprietary/common/lib/libgtalk_stabilize.so:system/lib/libgtalk_stabilize.so \
     vendor/Droid_Concepts/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
+    vendor/Droid_Concepts/proprietary/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
     vendor/Droid_Concepts/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/Droid_Concepts/proprietary/common/lib/liblightcycle.so:system/lib/liblightcycle.so \
     vendor/Droid_Concepts/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
