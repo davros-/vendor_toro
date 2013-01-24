@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/Droid_Concepts/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
     vendor/Droid_Concepts/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/Droid_Concepts/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/Droid_Concepts/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/Droid_Concepts/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/Droid_Concepts/proprietary/common/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
