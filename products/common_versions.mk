@@ -1,7 +1,6 @@
 # Version information used on all builds
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=JDQ39 BUILD_VERSION_TAGS=release-keys USER=davros BUILD_UTC_DATE=$(shell date +"%s")
 
-
 # Additional properties
 PRODUCT_VERSION_MAJOR = 11
 PRODUCT_VERSION_MINOR = 0

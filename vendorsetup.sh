@@ -8,3 +8,5 @@ add_lunch_combo Droid_Concepts_grouper-user
 add_lunch_combo Droid_Concepts_grouper-userdebug
 add_lunch_combo Droid_Concepts_toroplus-user
 add_lunch_combo Droid_Concepts_toroplus-userdebug
+add_lunch_combo Droid_Concepts_manta-user
+add_lunch_combo Droid_Concepts_manta-userdebug
