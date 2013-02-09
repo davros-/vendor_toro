@@ -19,9 +19,11 @@ include vendor/Droid_Concepts/products/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
-    DCWallpapers \
+    Apollo \
     Chronus \
-    DCBeats
+    DCWallpapers \
+    DCBeats 
+    
 
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
