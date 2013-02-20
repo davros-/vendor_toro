@@ -23,8 +23,6 @@ PRODUCT_PACKAGES += \
     Chronus \
     DCWallpapers \
     DCBeats \
-    Calendar \
-    Email
     
 
 # Common Google Applications and libs
