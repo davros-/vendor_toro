@@ -14,6 +14,10 @@ PRODUCT_MANUFACTURER := lge
 # Inherit common build.prop overrides
 -include vendor/Droid_Concepts/products/common_versions.mk
 
+# Common packages 
+PRODUCT_PACKAGES += \
+    Torch \
+
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/Droid_Concepts/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip \
