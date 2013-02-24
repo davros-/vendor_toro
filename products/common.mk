@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     Chronus \
     DCWallpapers \
     DCBeats \
+    Gallery2
     
 
 # Common Google Applications and libs

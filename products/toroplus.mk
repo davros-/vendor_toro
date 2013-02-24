@@ -20,8 +20,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_FINGERPRINT=samsung/
 PRODUCT_COPY_FILES +=  \
     vendor/Droid_Concepts/proprietary/tuna/media/bootanimation.zip:system/media/bootanimation.zip \
     vendor/Droid_Concepts/proprietary/tuna/app/Gallery2.apk:system/app/Gallery2.apk \
-    vendor/Droid_Concepts/proprietary/maguro/vendor/etc/smc_normal_world_android_cfg.ini:system/vendor/etc/smc_normal_world_android_cfg.ini 
-
+  
 # Inherit media effect blobs
 -include vendor/Droid_Concepts/products/common_media_effects.mk
 
