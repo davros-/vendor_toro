@@ -1,6 +1,9 @@
 # Inherit AOSP device configuration for mako.
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
 
+# Grouper Overlays.
+PRODUCT_PACKAGE_OVERLAYS += vendor/Droid_Concepts/overlay/grouper
+
 # Inherit common product files.
 $(call inherit-product, vendor/Droid_Concepts/products/common.mk)
 

@@ -1,12 +1,15 @@
 # Inherit AOSP device configuration for mako.
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
+# Mako overlay files
+PRODUCT_PACKAGE_OVERLAYS += vendor/Droid_Concepts/Overlay/mako
+
 # Inherit common product files.
 $(call inherit-product, vendor/Droid_Concepts/products/common.mk)
 
 # Setup device specific product configuration.
 PRODUCT_NAME := Droid_Concepts_mako
-PRODUCT_BRAND := lge
+PRODUCT_BRAND := Google
 PRODUCT_DEVICE := mako
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := lge
