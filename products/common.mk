@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/Droid_Concepts/proprietary/common/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so \
     vendor/Droid_Concepts/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
-    vendor/Droid_Concepts/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so \
+    vendor/Droid_Concepts/proprietary/common/lib/libvideochat_jni.so:system/lib/libvideochat_jni.so 
 
 # Common Applications
 PRODUCT_COPY_FILES += \
