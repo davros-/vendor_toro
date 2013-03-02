@@ -1,0 +1,93 @@
+#!/system/bin/sh
+# Demented Script Set
+
+LOG_FILE=/data/speedfreek.log
+
+if [ -e $LOG_FILE ]; then
+	rm $LOG_FILE;
+fi;
+
+# enable sysctl tweaks
+#
+sysctl -p /system/etc/sysctl.conf
+
+# Start crond
+#
+echo "root:x:0:0::data/cron:/system/xbin/bash" > /system/etc/passwd
+mount -o remount,rw rootfs /
+ln -s /system/xbin /xbin
+mount -o remount,ro rootfs /
+timezone=`date +%z`
+if [ $timezone = "-0800" ]; then
+TZ=PST8PDT
+elif [ $timezone = "-0700" ]; then
+TZ=MST7MDT
+elif [ $timezone = "-0600" ]; then
+TZ=CST6CDT
+elif [ $timezone = "-0500" ]; then
+TZ=EST5EDT
+else TZ=EST5EDT
+fi
+export TZ
+crond -c /data/cron
+
+# Demented Swap
+#
+echo "0" > /proc/sys/vm/swappiness
+
+#Hyper Demented
+#
+rm -f /cache/*.apk
+rm -f /cache/*.tmp
+rm -f /data/dalvik-cache/*.apk
+rm -f /data/dalvik-cache/*.tmp
+sysctl -w vm.overcommit_memory=1
+sysctl -w vm.page-cluster=3
+sysctl -w vm.drop_caches=3
+
+
+# SD Card Speed Boost
+if [ -e /sys/devices/virtual/bdi/179:0/read_ahead_kb ]; then
+  echo 2048 > /sys/devices/virtual/bdi/179:0/read_ahead_kb
+fi
+
+#Battery
+#
+busybox sysctl -w vm.dirty_expire_centisecs=1000
+busybox sysctl -w vm.dirty_writeback_centisecs=2000
+busybox sysctl -w kernel.random.write_wakeup_threshold=256
+busybox sysctl -w kernel.random.read_wakeup_threshold=128
+
+#Screen
+#
+echo "30" > /sys/class/misc/brightness_curve/min_bl
+echo "1" > /sys/class/misc/brightness_curve/min_gamma
+echo "24" > /sys/class/misc/brightness_curve/max_gamma
+
+# Optimize Vm
+#
+if [ -e /proc/sys/vm/vfs_cache_pressure ]; then
+	echo "10" > /proc/sys/vm/vfs_cache_pressure
+fi
+
+if [ -e /proc/sys/vm/dirty_expire_centisecs ]; then
+	echo "500" > /proc/sys/vm/dirty_expire_centisecs
+fi
+
+if [ -e /proc/sys/vm/dirty_writeback_centisecs ]; then
+	echo "1000" > /proc/sys/vm/dirty_writeback_centisecs
+fi
+
+if [ -e /proc/sys/vm/dirty_ratio ]; then
+	echo "90" > /proc/sys/vm/dirty_ratio
+fi
+
+if [ -e /proc/sys/vm/dirty_background_ratio ]; then
+	echo "45" > /proc/sys/vm/dirty_background_ratio
+fi
+
+if [ -f "\$i" ]; then
+	sync;
+	echo "cfq" > \$i;
+fi
+

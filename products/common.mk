@@ -99,14 +99,15 @@ PRODUCT_COPY_FILES += \
     
 # Common files for init.d support and etc files
 PRODUCT_COPY_FILES += \
-    vendor/Droid_Concepts/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
-    vendor/Droid_Concepts/proprietary/common/etc/init.d/98tweaks:system/etc/init.d/98tweaks \
     vendor/Droid_Concepts/proprietary/common/bin/sysinit:system/bin/sysinit \
     vendor/Droid_Concepts/proprietary/common/etc/resolv.conf:system/etc/resolv.conf \
     vendor/Droid_Concepts/proprietary/common/etc/sysctl.conf:system/etc/sysctl.conf 
 
 # BEATS Audio
 include vendor/Droid_Concepts/products/beats_audio.mk
+
+# DEMENTED-Droid SPEED FREEK init.d and build.prop tweaks
+include vendor/Droid_Concepts/products/speed_freek.mk
 
 # Common scripts
 PRODUCT_COPY_FILES += \
