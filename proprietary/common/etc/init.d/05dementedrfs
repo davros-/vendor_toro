@@ -1,11 +1,13 @@
 #!/system/bin/sh
-#
+#csphelps76
+# IO
+BLOCK_DEVS=`ls -d /sys/block/mmc*`;
 
-LOG_FILE=/data/dementedfile.log
-
-if [ -e $LOG_FILE ]; then
-	rm $LOG_FILE;
-fi;
+for i in $BLOCK_DEVS;
+do
+    echo "0" > $i/queue/rotational;
+    echo "256" > $i/queue/max_sectors_kb;
+done;
 
 # File System Mounts
 #
@@ -24,3 +26,7 @@ busybox mount -o remount,noatime,nodiratime,discard,noauto_da_alloc,nosuid,nodev
 busybox mount -o remount,noatime,nodiratime,discard,noauto_da_alloc,nosuid,nodev,data=writeback,barrier=0 -t auto /mnt/obb
 busybox mount -o remount,noatime,nodiratime,discard,noauto_da_alloc,nosuid,nodev,data=writeback,barrier=0 -t auto /mnt/sdcard
 
+#
+# Enable Sysctl Tweaks
+#
+sysctl -p /system/etc/sysctl.conf
