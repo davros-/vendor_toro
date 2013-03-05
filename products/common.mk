@@ -19,7 +19,6 @@ include vendor/Droid_Concepts/products/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
-    Apollo \
     Calendar \
     Chronus \
     DCWallpapers \
