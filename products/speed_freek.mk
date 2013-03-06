@@ -45,8 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/etc/init.d/02sysctl:system/etc/init.d/02sysctl \
     vendor/Droid_Concepts/proprietary/common/etc/init.d/04dementededt_tweaks:system/etc/init.d/04dementededt_tweaks \
     vendor/Droid_Concepts/proprietary/common/etc/init.d/05dementedrfs:system/etc/init.d/05dementedrfs \
-    vendor/Droid_Concepts/proprietary/common/etc/init.d/07dementedtweaks:system/etc/init.d/07dementedtweaks \
-    vendor/Droid_Concepts/proprietary/common/etc/init.d/09dementedsetrenice:system/etc/init.d/09dementedsetrenice \
     vendor/Droid_Concepts/proprietary/common/etc/init.d/80dementedloopysmoothnesstweak:system/etc/init.d/80dementedloopysmoothnesstweak \
     vendor/Droid_Concepts/proprietary/common/etc/init.d/91dementedzipalign:system/etc/init.d/91dementedzipalign \
     vendor/Droid_Concepts/proprietary/common/etc/init.d/97dementedtcp:system/etc/init.d/97dementedtcp \
