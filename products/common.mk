@@ -20,12 +20,11 @@ include vendor/Droid_Concepts/products/themes_common.mk
 # Common packages 
 PRODUCT_PACKAGES += \
     Calendar \
-    Chronus \
     DCWallpapers \
     DCBeats \
-    Gallery2
+    Gallery2 \
+    LockClock
     
-
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/ApexLauncher_v1.4.3.apk:system/app/ApexLauncher_v1.4.3.apk \
