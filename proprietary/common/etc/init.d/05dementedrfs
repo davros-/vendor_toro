@@ -1,5 +1,5 @@
 #!/system/bin/sh
-#csphelps76
+# csphelps76
 # IO
 BLOCK_DEVS=`ls -d /sys/block/mmc*`;
 
