@@ -80,20 +80,16 @@ PRODUCT_COPY_FILES += \
 
 # Common Applications
 PRODUCT_COPY_FILES += \
-    vendor/Droid_Concepts/proprietary/common/app/SuperSU.apk:system/app/SuperSU.apk \
     vendor/Droid_Concepts/proprietary/common/app/TricksterMod.apk:system/app/TricksterMod.apk 
-
-# Common Keyboard w/ Gestures
-#PRODUCT_COPY_FILES += \
-#    vendor/Droid_Concepts/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-#    vendor/Droid_Concepts/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
 
 # Common Binary files
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/bin/flash_image:system/bin/flash_image \
     vendor/Droid_Concepts/proprietary/common/xbin/bash:system/xbin/bash \
-    vendor/Droid_Concepts/proprietary/common/xbin/zipalign:system/xbin/zipalign \
-    vendor/Droid_Concepts/proprietary/common/xbin/su:system/xbin/su 
+    vendor/Droid_Concepts/proprietary/common/xbin/zipalign:system/xbin/zipalign 
+
+# Koush Superuser
+SUPERUSER_EMBEDDED := true
     
 # Common files for init.d support and etc files
 PRODUCT_COPY_FILES += \
