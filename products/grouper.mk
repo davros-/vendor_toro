@@ -202,7 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/beats/lib/libsrscorehtc.so:system/lib/libsrscorehtc.so \
     vendor/Droid_Concepts/proprietary/common/beats/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
     vendor/Droid_Concepts/proprietary/common/beats/lib/libswiqisettinghelper.so:system/lib/libswiqisettinghelper.so \
-    vendor/Droid_Concepts/proprietary/common/beats/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/Droid_Concepts/proprietary/common/beats/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/Droid_Concepts/proprietary/common/beats/lib/soundfx/libbeatsbass.so:system/lib/soundfx/libbeatsbass.so \
     vendor/Droid_Concepts/proprietary/common/beats/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
