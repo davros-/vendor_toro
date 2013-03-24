@@ -17,6 +17,7 @@ PRODUCT_MANUFACTURER := asus
 # Inherit common build.prop overrides
 -include vendor/Droid_Concepts/products/common_versions.mk
 
+<<<<<<< HEAD
 # Droid_Concepts SPEED FREEK init.d and build.prop tweaks
 include vendor/Droid_Concepts/products/speed_freek_grouper.mk
 
@@ -226,6 +227,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Torch
 
+=======
+>>>>>>> parent of 0200272... beats overhaul
 # Copy toro specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/Droid_Concepts/proprietary/grouper/media/bootanimation.zip:system/media/bootanimation.zip \
