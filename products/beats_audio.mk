@@ -2,7 +2,7 @@
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/beats/data/app/app.dogsbark.noozxoidelabs.noozy.3.0.2.3.apk:data/app/app.dogsbark.noozxoidelabs.noozy.3.0.2.3.apk \
     vendor/Droid_Concepts/proprietary/common/beats/data/app/com.noozxoidelabs.eizo.rewirepro.2.0.1.13.apk:data/app/com.noozxoidelabs.eizo.rewirepro.2.0.1.13.apk \
-    vendor/Droid_Concepts/proprietary/common/beats/system/app/AudioEffectService.apk:sytem/app/AudioEffectService.apk \
+    vendor/Droid_Concepts/proprietary/common/beats/system/app/AudioEffectService.apk:system/app/AudioEffectService.apk \
     vendor/Droid_Concepts/proprietary/common/beats/system/app/DolbyMobile.apk:system/app/DolbyMobile.apk \
     vendor/Droid_Concepts/proprietary/common/beats/system/app/SwiqiSettingsService.apk:system/app/SwiqiSettingsService.apk \
     vendor/Droid_Concepts/proprietary/common/beats/system/bin/alsa_amixer:system/bin/alsa_amixer \
