@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     DCWallpapers \
     DCBeats \
     Gallery2 \
-    LockClock
+    LockClock \
+    PermissionsManager
    
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
