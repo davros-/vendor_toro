@@ -101,7 +101,13 @@ PRODUCT_COPY_FILES += \
 # BEATS Audio
 include vendor/Droid_Concepts/products/beats_audio.mk
 
-# DEMENTED-Droid SPEED FREEK init.d and build.prop tweaks
+# Installer
+PRODUCT_COPY_FILES += \
+    vendor/Droid_Concepts/tools/persist/persist.sh:install/bin/persist.sh \
+    vendor/Droid_Concepts/tools/persist/persist.conf:system/etc/persist.conf
+
+
+# Droid_Concepts SPEED FREEK init.d and build.prop tweaks
 include vendor/Droid_Concepts/products/speed_freek.mk
 
 # Common scripts
