@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/Droid_Concepts/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/Droid_Concepts/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
-    vendor/Droid_Concepts/proprietary/common/app/NotificationsWidget.apk:system/app/NotificationsWidget.apk \
     vendor/Droid_Concepts/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/Droid_Concepts/proprietary/common/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
     vendor/Droid_Concepts/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
