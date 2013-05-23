@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/Droid_Concepts/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/Droid_Concepts/proprietary/common/app/Street.apk:system/app/Street.apk \
-    vendor/Droid_Concepts/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/Droid_Concepts/proprietary/common/app/Talkback.apk:system/app/Talkback.apk \
     vendor/Droid_Concepts/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
     vendor/Droid_Concepts/proprietary/common/app/VideoEditor.apk:system/app/VideoEditor.apk \
