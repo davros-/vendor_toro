@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/Droid_Concepts/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/Droid_Concepts/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
+    vendor/Droid_Concepts/proprietary/common/app/Hangouts.apk:system/app/Hangouts.apk \
     vendor/Droid_Concepts/proprietary/common/app/LatinIMEDictionaryPack.apk:system/app/LatinIMEDictionaryPack.apk \
     vendor/Droid_Concepts/proprietary/common/app/Maps.apk:system/app/Maps.apk \
     vendor/Droid_Concepts/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
@@ -55,6 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/Droid_Concepts/proprietary/common/app/Talkback.apk:system/app/Talkback.apk \
     vendor/Droid_Concepts/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
+    vendor/Droid_Concepts/proprietary/common/app/VideoEditor.apk:system/app/VideoEditor.apk \
+    vendor/Droid_Concepts/proprietary/common/app/VoiceDialer.apk:system/app/VoiceDialer.apk \
     vendor/Droid_Concepts/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
     vendor/Droid_Concepts/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/Droid_Concepts/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml \
