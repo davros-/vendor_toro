@@ -28,7 +28,7 @@ PRODUCT_PACKAGES += \
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/Droid_Concepts/proprietary/common/app/ApexLauncher_v2.0.2.apk:system/app/ApexLauncher_v2.0.2.apk \
-    vendor/Droid_Concepts/proprietary/common/app/CalendarGoogle.apk:system/app/CalendarGoogle.apk \
+    vendor/Droid_Concepts/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
     vendor/Droid_Concepts/proprietary/common/app/CalendarProvider.apk:system/app/CalendarProvider.apk \
     vendor/Droid_Concepts/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
     vendor/Droid_Concepts/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
